@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_popwindowmenu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/tv_common_16sp"
+        android:layout_width="match_parent"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        android:paddingRight="@dimen/default_margin"
+        android:paddingTop="@dimen/default_margin"
+        android:textColor="@color/gray_32"/>
+
+    <View
+        android:id="@+id/v_divider"
+        style="@style/divider_horizontal"/>
+
+</LinearLayout>

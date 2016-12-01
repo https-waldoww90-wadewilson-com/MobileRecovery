@@ -1,5 +1,171 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="activity_horizontal_margin">16dp</dimen>-->
+    <!--<dimen name="activity_vertical_margin">16dp</dimen>-->
+
+    <dimen name="action_bar_height">44dp</dimen>
+
+    <!--common-->
+    <dimen name="radius_2dp">2dp</dimen>
+    <dimen name="radius_4dp">4dp</dimen>
+    <dimen name="line_width_1px">1px</dimen>
+    <dimen name="line_width_2px">2px</dimen>
+    <dimen name="line_height_1px">1px</dimen>
+    <dimen name="line_height_2px">2px</dimen>
+    <dimen name="bg_red_oval_size">14dp</dimen>
+    <dimen name="single_line_item_height">54dp</dimen>
+    <!--单行列表高度-->
+    <dimen name="single_line_item_height_without_divider">53.5dp</dimen>
+    <!--单行列表高度,去除1px的间隔线-->
+
+    <!--Toast-->
+    <dimen name="toast_padding_top_bottom">15dp</dimen>
+    <dimen name="toast_padding_left_right">16dp</dimen>
+    <dimen name="toast_icon_space">8dp</dimen>
+    <!--loading圈-->
+    <dimen name="loading_height">37dp</dimen>
+    <dimen name="loading_margin">25dp</dimen>
+    <dimen name="loading_to_text">8dp</dimen>
+    <dimen name="loading_img_margin_top">8.5dp</dimen>
+    <dimen name="loading_img_margin_bottom">19.5dp</dimen>
+
+    <!--公共空白页-->
+    <dimen name="blank_icon_margin_bottom">25dp</dimen>
+    <dimen name="blank_icon_margin_top">14.5dp</dimen>
+    <dimen name="blank_icon_width">278dp</dimen>
+    <dimen name="blank_icon_height">178dp</dimen>
+    <!--错误页-->
+    <dimen name="error_icon_margin_bottom">35dp</dimen>
+    <dimen name="error_icon_margin_top">15dp</dimen>
+    <dimen name="error_icon_width">194dp</dimen>
+    <dimen name="error_icon_height">178dp</dimen>
+    <dimen name="network_error_icon_margin_top">50dp</dimen>
+    <dimen name="network_error_icon_margin_bottom">20dp</dimen>
+    <dimen name="network_error_icon_width">194dp</dimen>
+    <dimen name="network_error_icon_height">124dp</dimen>
+    <!--字体大小-->
+    <dimen name="default_tool_bar_title_size">@dimen/text_size_xl</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_29">29sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_9">9sp</dimen>
+    <!--间距-->
+    <dimen name="phy_main_button_margin_right">2dp</dimen>
+    <dimen name="default_margin">13dp</dimen>
+    <dimen name="default_btn_height">52dp</dimen>
+    <dimen name="default_tool_bar_icon_size">19dp</dimen>
+    <dimen name="default_content_padding">13dp</dimen>
+    <dimen name="default_content_paddingright">11dp</dimen>
+    <dimen name="default_dialog_margin">13dp</dimen>
+    <dimen name="common_button_height">50dp</dimen>
+    <dimen name="common_button_padding_top">22dp</dimen>
+    <dimen name="common_button_padding_bottom">22dp</dimen>
+    <dimen name="common_text_line_space">4dp</dimen>
+    <dimen name="right_arrow_margin">11dp</dimen>
+    <dimen name="right_arrow_marginTop">23dp</dimen>
+    <dimen name="bt_errormsg_margin">48dp</dimen>
+    <!--导航栏-->
+    <dimen name="navigation_left_margin">13dp</dimen>
+    <dimen name="navigation_right_margin">@dimen/default_margin</dimen>
+    <!-- common -->
+    <!--占位符，表示后面计算动态设置-->
+    <dimen name="placeholder">0dp</dimen>
+    <dimen name="banner_indicator_space">5dp</dimen>
+    <dimen name="banner_indicator_bottom_margin">8dp</dimen>
+
+    <dimen name="text_size_xxxl">@dimen/text_size_29</dimen>
+    <dimen name="text_size_xxl">@dimen/text_size_21</dimen>
+    <dimen name="text_size_xl">@dimen/text_size_17</dimen>
+    <dimen name="text_size_l">@dimen/text_size_15</dimen>
+    <dimen name="text_size_m">@dimen/text_size_14</dimen>
+    <dimen name="text_size_s">@dimen/text_size_10</dimen>
+
+    <!--<dimen name="text_size_xs">@dimen/text_size_10</dimen>-->
+    <dimen name="image_corner_radius">2dp</dimen>
+    <!--弹窗宽度-->
+    <dimen name="popmenu_width">250dp</dimen>
+    <!--弹窗y方向偏移-->
+    <dimen name="popmenu_yoff">13dp</dimen>
+
+    <dimen name="view_pager_tab_indicator_padding">9dp</dimen>
+    <dimen name="view_pager_tab_bottom">4dp</dimen>
+    <dimen name="view_pager_tab_indicator_height">2dp</dimen>x
+    <!--底部tab页-->
+    <dimen name="activity_main_tab_icon_size">18dp</dimen>
+    <dimen name="activity_main_tab_height">43dp</dimen>
+    <dimen name="item_tab_view_padding_top">12dp</dimen>
+    <dimen name="item_tab_view_padding_bottom">12dp</dimen>
+    <dimen name="item_main_page_tab_title_margin_top">1dp</dimen>
+    <!--FloatButton-->
+    <dimen name="float_btn_margin_right">20dp</dimen>
+    <!--视觉要求降低10dp-->
+    <dimen name="float_btn_margin_bottom">66dp</dimen>
+    <dimen name="float_btn_size">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_exam_margin">0dp</dimen>
+    <!--地址管理-->
+    <dimen name="location_picker_height">235dp</dimen>
+    <dimen name="location_picker_top_height">35dp</dimen>
+    <dimen name="circle_radius">2dp</dimen>
+    <!--边框宽度-->
+    <dimen name="border_width_1px">0.5dp</dimen>
+    <dimen name="border_width_0.5px">0.25dp</dimen>
+    <dimen name="border_width_2px">1dp</dimen>
+    <dimen name="border_width_4px">2dp</dimen>
+    <!--水平分割线高度-->
+    <dimen name="line_height">0.5dp</dimen>
+    <!--垂直分割线宽度-->
+    <dimen name="line_width">0.5dp</dimen>
+
+    <dimen name="shadow_height">2px</dimen>
+    <!-- tab -->
+    <dimen name="phyrunning_button">170dp</dimen>
+    <dimen name="phyrunning_margintop">70dp</dimen>
+    <dimen name="item_tab_view_txt_tab_msg_popo_margin_top">1dp</dimen>
+    <dimen name="item_tab_view_txt_tab_msg_popo_margin_left">-4dp</dimen>
+    <dimen name="item_tab_view_txt_tab_subscribe_popo_size">8dp</dimen>
+    <dimen name="item_tab_view_txt_tab_subscribe_popo_margin_left">-8dp</dimen>
+    <dimen name="item_tab_view_txt_tab_subscribe_popo_margin_top">3dp</dimen>
+    <dimen name="item_tab_view_txt_mainpage_tab_title_margin_top">1dp</dimen>
+    <!--启动页-->
+    <dimen name="splash_logo_to_slogan">4dp</dimen>
+    <dimen name="splash_logo_slogn_height">90dp</dimen>
+    <dimen name="refresh_dot_size">7dp</dimen>
+    <dimen name="refresh_dot_space">10dp</dimen>
+    <dimen name="refresh_size">24dp</dimen>
+    <!--警告框-->
+    <dimen name="alert_dialog_content_top_bottom">33dp</dimen>
+    <dimen name="alert_dialog_window_margin_left_right">30dp</dimen>
+    <dimen name="alert_dialog_content_padding">30dp</dimen>
+    <dimen name="alert_dialog_btn_height">40dp</dimen>
+
+    <!--弹出框-->
+    <dimen name="pop_window_height">234dp</dimen>
+    <dimen name="pop_window_title_margin_top_bottom">27.5dp</dimen>
+
+
+    <!--刷新和加载更多-->
+    <dimen name="loading_more_space">8dp</dimen>
+    <dimen name="loading_more_circle_radius">18dp</dimen>
+    <dimen name="loading_more_circle_border_width">2dp</dimen>
+    <dimen name="loading_more_height">40dp</dimen>
+    <dimen name="loading_no_more_height">45dp</dimen>
+    <dimen name="loading_more_line_width">35dp</dimen>
+    <dimen name="loading_more_line_margin">10dp</dimen>
 </resources>

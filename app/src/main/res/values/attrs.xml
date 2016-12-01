@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--banner指示器控件属性-->
+    <declare-styleable name="BannerIndicatorLayout">
+        <attr name="indicator_space" format="dimension"/>
+        <attr name="select_background" format="color|reference"/>
+        <attr name="select_size" format="dimension"/>
+        <attr name="unselect_background" format="color|reference"/>
+        <attr name="unselect_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="POCTBlankView">
+        <attr name="blankIconDrawable" format="reference|color"/>
+        <attr name="blankHint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="POCTErrorView">
+        <attr name="errorIconDrawable" format="reference|color"/>
+        <attr name="errorHint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomScrollView">
+        <attr name="maxInstance" format="integer"/>
+        <attr name="animateDuration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgressbar">
+        <!-- 圆环起始角度-->
+        <attr name="radius" format="dimension"/>
+        <!-- 圆环的宽度-->
+        <attr name="trokeWidth" format="dimension"/>
+        <!-- 进度条进度颜色 -->
+        <attr name="arcColor" format="reference|color"/>
+    </declare-styleable>
+
+    <!-- Custom states -->
+    <declare-styleable name="DateState">
+        <attr name="state_date_today" format="boolean"/>
+        <attr name="state_date_selected" format="boolean"/>
+        <attr name="state_date_disabled" format="boolean"/>
+        <attr name="state_date_prev_next_month" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Declare stylable attribute for a cell -->
+    <declare-styleable name="Cell">
+        <attr name="android:textColor"/>
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarCellView">
+        <attr name="wh_radius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShSwitchView">
+        <attr name="tintColor" format="reference|color"/>
+        <attr name="outerStrokeWidth" format="reference|dimension"/>
+        <attr name="shadowSpace" format="reference|dimension"/>
+        <attr name="knobBoundColor" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SetBooleanView">
+        <attr name="android:text"/>
+    </declare-styleable>
+
+    <declare-styleable name="SetAgeView">
+        <attr name="android:text"/>
+    </declare-styleable>
+
+    <declare-styleable name="SetDateView">
+        <attr name="android:text"/>
+        <attr name="futureDateTips" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SetDaysView">
+        <attr name="default_days" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PregnantRecordLayout">
+        <attr name="column_space" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+    </declare-styleable>
+
+    <!--时间线控件属性-->
+    <declare-styleable name="DashedLineView">
+        <attr name="lineColor" format="color|reference" />
+        <attr name="spaceColor" format="color|reference" />
+        <attr name="lineSize" format="dimension" />
+        <attr name="spaceSize" format="dimension" />
+        <attr name="halfBegin" format="boolean" />
+        <attr name="orientation">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+        <attr name="shape">
+            <enum name="line" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!--对齐TextView的末行对齐方式属性-->
+    <declare-styleable name="AlignTextView">
+        <attr name="align" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+    <!--
+        max                 最大进度
+        startAngle             进度从圆环的哪个角度开始走
+        backColor             圆环内部的填充色
+        roundColor             圆环的颜色
+        roundProgressColor  圆环进度的颜色
+        roundWidth             圆环宽度
+        textColor             中心文字的颜色
+        textSize             中心文字的大小
+        textIsDisplayable     中心文字是否显示
+        style = 0/1          进度的风格，实心或者空心
+     -->
+    <declare-styleable name="RoundProgressBar">
+        <attr name="max" format="integer"></attr>
+        <attr name="startAngle" format="integer"></attr>
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="backColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+</resources>

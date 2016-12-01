@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/shape_alert_dialog_bg"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black_alpha80"
+        android:textSize="@dimen/text_size_l"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/edt_alert_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/alert_dialog_content_top_bottom"
+        android:paddingLeft="@dimen/alert_dialog_content_padding"
+        android:paddingRight="@dimen/alert_dialog_content_padding"
+        android:paddingTop="@dimen/alert_dialog_content_top_bottom"
+        android:textColor="@color/black_alpha80"
+        android:textSize="@dimen/text_size_m"/>
+
+    <include layout="@layout/view_horizontal_line_1px_black_alpha8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
+
+        <Button
+            android:id="@+id/btn_alert_negative"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/alert_dialog_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_alert_dialog"
+            android:textColor="@color/black_alpha80"
+            android:textSize="@dimen/text_size_14"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="@dimen/border_width_1px"
+            android:layout_height="@dimen/alert_dialog_btn_height"
+            android:background="@color/black_alpha15"/>
+
+        <Button
+            android:id="@+id/btn_alert_positive"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/alert_dialog_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_alert_dialog"
+            android:textColor="@color/yx_red"
+            android:textSize="@dimen/text_size_14"/>
+    </LinearLayout>
+</LinearLayout>

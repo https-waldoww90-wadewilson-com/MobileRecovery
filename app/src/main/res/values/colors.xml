@@ -3,4 +3,113 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFFFFFFF</color>
+    <!-- 红色 -->
+    <color name="red">#ff8080</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 粉色 -->
+    <color name="pink">#ffa6cb</color>
+    <!-- 紫色 -->
+    <color name="purple">#d7adf0</color>
+    <!-- 黄色 -->
+    <color name="yellow">#fad07d</color>
+    <!-- 蓝色 -->
+    <color name="blue">#6bceff</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 透明度为60%的黑色 -->
+    <color name="transparent_black_60">#99000000</color>
+    <!-- 透明度为60%的白色 -->
+    <color name="white_alpha5">#0cFFFFFF</color>
+    <color name="white_alpha10">#1aFFFFFF</color>
+    <color name="white_alpha40">#66FFFFFF</color>
+    <color name="white_alpha50">#7fFFFFFF</color>
+    <color name="white_alpha60">#99FFFFFF</color>
+    <color name="white_alpha90">#e6FFFFFF</color>
+
+    <color name="white_f5f6fa">#f5f6fa</color>
+
+    <color name="black_alpha5">#0c000000</color>
+    <color name="black_alpha10">#1a000000</color>
+    <color name="black_alpha15">#26000000</color>
+    <color name="black_alpha20">#33000000</color>
+    <color name="black_alpha30">#4c000000</color>
+    <color name="black_alpha40">#66000000</color>
+    <color name="black_alpha50">#7f000000</color>
+    <color name="black_alpha60">#99000000</color>
+    <color name="black_alpha80">#bc000000</color>
+
+    <color name="black_393C4D">#393C4D</color>
+
+    <color name="black_424659">#424659</color>
+    <color name="black_424659_alpha90">#e6424659</color>
+    <color name="black_424659_alpha80">#bc424659</color>
+    <color name="black_424659_alpha60">#99424659</color>
+    <color name="black_424659_alpha40">#66424659</color>
+    <color name="black_424659_alpha35">#59424659</color>
+    <color name="black_424659_alpha28">#47424659</color>
+    <color name="black_424659_alpha20">#33424659</color>
+    <color name="black_424659_alpha16">#29424659</color>
+    <color name="black_424659_alpha14">#24424659</color>
+    <color name="black_424659_alpha10">#19424659</color>
+    <color name="black_424659_alpha8">#14424659</color>
+
+    <!-- 灰色 -->
+    <color name="gray_e1">#424655</color>
+    <color name="gray_e0">#e0e0e0</color>
+    <color name="gray_32">#323232</color>
+    <color name="gray_f0">#f0f0f0</color>
+    <color name="gray_f2">#f2f2f2</color>
+    <color name="gray_f3">#f3f3f3</color>
+    <color name="gray_f2f3f7">#f2f3f7</color>
+    <color name="gray_f4">#f4f4f4</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="gray_80">#808080</color>
+    <color name="gray_88">#888888</color>
+    <color name="yx_red">#ab2b2b</color>
+    <color name="poct_img_placeholder">@color/gray_f4</color>
+    <color name="poct_bg_color">@color/gray_f2f3f7</color>
+    <color name="green_normal">#40df9a</color>
+    <color name="split_line_grey_color_e0">#e0e0e0</color>
+
+    <!--location picker-->
+    <color name="location_picker_background">#F3F3F3</color>
+    <color name="wheelpick_2_line_color">@color/black_alpha15</color>
+    <color name="wheelpick_select_item_color">@color/black_alpha80</color>
+    <color name="wheelpick_unselect_item_color">@color/black_alpha5</color>
+
+
+    <!-- 导航栏的红色 -->
+    <color name="navigation_bar_color">@color/transparent</color>
+    <color name="navigation_bar_title_color">@color/black_424659</color>
+    <color name="white_navigation_bar_title_color">@color/black_424659</color>
+    <!-- 状态栏背景色 -->
+    <color name="status_bar_color">@color/black</color>
+    <!-- popwindow的半透明aa -->
+    <color name="popup_window_mask">@color/black_424659_alpha80</color>
+
+    <color name="phy_text_color">@color/gray_e1</color>
+
+    <!--底部tab-->
+    <color name="main_page_tab_title_text_color_normal">@color/black_424659_alpha60</color>
+    <color name="main_page_tab_title_text_color_selected">@color/black_424659</color>
+    <color name="main_page_tab_title_text_color_background">@color/white</color>
+    <color name="recommend_bg_banner_indicator_normal">@color/white_alpha40</color>
+    <!--加载动画小球-->
+    <color name="loading_dot_right">#f06410</color>
+    <color name="loading_dot_left">@color/yx_red</color>
+
+    <!--calendar-->
+    <color name="calendar_cell_selected_bg_color">#ebebeb</color>
+    <color name="calendar_switch_status_on">#6a718a</color>
+    <color name="calendar_switch_status_off">#ebebeb</color>
+    <color name="calendar_switch_status_title_color">@color/black_424659</color>
+
+    <!--检测进度小球-->
+    <color name="loading_ball_color_1">#75c1fa</color>
+    <color name="loading_ball_color_2">#d399f4</color>
+    <color name="loading_ball_color_3">#f884b7</color>
 </resources>
