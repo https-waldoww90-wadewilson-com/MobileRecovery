@@ -5,7 +5,6 @@ import android.content.Context;
 
 import com.wurq.dex.mobilerecovery.BuildConfig;
 import com.wurq.dex.mobilerecovery.hearttouch.common.util.ScreenUtil;
-import com.wurq.dex.mobilerecovery.hearttouch.common.util.SystemUtil;
 
 /**
  *
@@ -21,7 +20,7 @@ public class RecoveryApplication extends Application {
 
         //崩溃捕获以及日志输出配置
         if (BuildConfig.DEBUG) {
-            CrashHandlerL.getInstance().init(context);//debug状态下使用本地崩溃捕获
+//            CrashHandlerL.getInstance().init(context);//debug状态下使用本地崩溃捕获
 //            HTLog.installLogTool(getApplicationContext(), getPackageName(), new HTConsoleLogTool("VERBOSE"), true, 5);
 //            // add debug for use log filename, remove after debug
 //            HTLog.installLogTool(getApplicationContext(), getPackageName(), new HTLogFileLocalProcessLogTool("VERBOSE", //设置当前log的打印级别。支持的打印级别分别为：VERBOSE,DEBUG,INFO,WARN,ERROR,ASSERT。与logcat的级别一一对应。只有等于或高于此级别的log才会被打印出来。
@@ -52,7 +51,7 @@ public class RecoveryApplication extends Application {
 //        HTRefreshRecyclerView.setRefreshViewHolderClass(DotStyleRefreshViewHolder.class);
 
         // 进入应用就开始在后台请求网络时间
-        SystemUtil.updateSystemBias();
+//        SystemUtil.updateSystemBias();
 
         // 初始化支付模块
         // initPay();
@@ -81,7 +80,7 @@ public class RecoveryApplication extends Application {
 //            refWatcher = LeakCanary.install(this);
 //            // Normal app init code..
 //        }
-        ForegroundCallbacks.get(this);
+//        ForegroundCallbacks.get(this);
     }
 
 
